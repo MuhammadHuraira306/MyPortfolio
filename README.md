@@ -1,75 +1,16 @@
-# Muhammad Huraira — Portfolio
+# React + Vite
 
-Welcome to my personal portfolio repository.
+This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
-This website showcases my journey as a Computer Science student at **NUST**, along with my projects, technical skills, achievements, and experience in web development.
+Currently, two official plugins are available:
 
-## About Me
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-I'm a Computer Science student at the **National University of Sciences and Technology (NUST)** with an interest in software development, full-stack web development, artificial intelligence, cybersecurity, and entrepreneurship.
+## React Compiler
 
-I enjoy turning ideas into functional digital products and continuously improving my technical skills through hands-on projects.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Featured Projects
+## Expanding the Oxlint configuration
 
-### NextUK Consultant
-
-A full-stack business-services platform designed to streamline company formation, client onboarding, verification, payments, document management, and administrative workflows.
-
-**Technologies:** HTML, CSS, JavaScript, Node.js, REST APIs
-
-### WilliHost
-
-A modern hosting-platform interface featuring a responsive frontend and an interactive hosting pricing calculator with configurable resources and services.
-
-**Technologies:** HTML, CSS, JavaScript
-
-### Fitness Tracker
-
-A browser-based fitness tracking application for managing workout-related data with client-side storage.
-
-**Technologies:** HTML, CSS, JavaScript, LocalStorage
-
-### Asenova
-
-An educational platform concept designed to organize study resources, PDFs, classes, and academic announcements in a more accessible format.
-
-**Technologies:** HTML, CSS, JavaScript
-
-## Skills
-
-* HTML5
-* CSS3
-* JavaScript
-* C++
-* Node.js
-* REST APIs
-* Git & GitHub
-* Responsive Web Design
-* SEO Fundamentals
-* Website Testing & QA
-
-## Education
-
-**National University of Sciences and Technology (NUST)**
-BS Computer Science — Fall 2026
-
-**KIPS College, Wah Cantt**
-ICS / HSSC
-
-## Achievement
-
-**2nd Position — COMSATS Mathematics Olympiad 2026**
-Wah Cantt
-
-## Portfolio
-
-The live version of this portfolio will be available through GitHub Pages.
-
-## Contact
-
-Feel free to connect with me through my professional profiles or reach out through the contact section of my portfolio.
-
----
-
-Built and maintained by **Muhammad Huraira**.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
